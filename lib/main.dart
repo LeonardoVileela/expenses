@@ -184,7 +184,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     if (!_showChart)
                       Container(
-                        height: availableHeight * 0.7,
+                        height: availableHeight * 1,
                         child:
                             TransactionList(_transaction, _removeTransaction),
                       ),
